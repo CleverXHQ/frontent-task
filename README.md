@@ -6,7 +6,7 @@ Welcome to the frontend developer hiring task! We're excited to evaluate your sk
 
 1. Design link: https://www.figma.com/file/1yPIQ27BkIAZRLeuLdeG0N/Task
 
-2. Implement the responsive pixel perfect design as per the Figma file.
+2. Implement the responsive pixel perfect design as per the Figma file. Tech stack to be used: React(can use NextJS), Tailwind CSS, rest is upto you.
 
 3. Filters/state should persist on reload. Pagination, items per page should work.
 
