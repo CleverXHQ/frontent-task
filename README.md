@@ -1,14 +1,32 @@
 # Frontend Developer Hiring Task
 
-Welcome to the frontend developer hiring task! We're excited to evaluate your skills and see how you approach building features on the client side. This task involves creating a simple Express.js server that serves data and filters based on certain criteria.
+Welcome to the frontend developer hiring task! We're excited to evaluate your skills and see how you approach building features on the client side. This task involves creating a frontend, which utilizes existing APIs.
+
+## Task details
+
+1. Design link: https://www.figma.com/file/1yPIQ27BkIAZRLeuLdeG0N/Task
+
+2. Implement the responsive pixel perfect design as per the Figma file.
+
+3. Filters/state should persist on reload. Pagination, items per page should work.
+
+5. Create an API for the main search field, user should be able to search any field.
+
+6. Review the provided code in `server/index.js` and make any necessary improvements or modifications.
+
+7. Feel free to add error handling, logging, or any other improvements you see fit in the existing code.
+
+8. Once you are done, submit your completed code or a link to your repository.
+
+Happy coding! If you have any questions, feel free to reach out on wellfound.
 
 ## Project Overview
 
 This project sets up a basic Express.js server to handle two endpoints:
 
-1. `/list`: Retrieves a list of opportunities with optional filters for countries, count, and start.
+1. `/list`: Retrieves a list of opportunities with optional filters for countries, and pagination.
 
-2. `/filters`: Retrieves a list of unique countries available in the dataset.
+2. `/filters`: Retrieves a list of unique countries available in the opportunities.
 
 ## Setup
 
@@ -54,11 +72,10 @@ curl http://localhost:5000/list?count=5&start=0&country=USA&country=Canada
 ```json
 [
   {
-    "id": 1,
     "title": "Opportunity 1",
     "countries": ["USA", "Canada"]
     // Other opportunity properties
-  },
+  }
   // Additional opportunities
 ]
 ```
@@ -80,16 +97,7 @@ curl http://localhost:5000/filters
 [
   "USA",
   "Canada",
-  "UK",
+  "UK"
   // Other unique countries
 ]
 ```
-
-## Developer Notes
-
-- Ensure that the `data.json` file is populated with the necessary data.
-- Review the provided code in `index.js` and make any necessary improvements or modifications.
-- Feel free to add error handling, logging, or any other improvements you see fit.
-- Once you are done, submit your completed code or a link to your repository.
-
-Happy coding! If you have any questions, feel free to reach out.
