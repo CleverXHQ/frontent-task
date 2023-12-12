@@ -12,11 +12,13 @@ Welcome to the frontend developer hiring task! We're excited to evaluate your sk
 
 5. Create an API for the main search field, user should be able to search any field.
 
-6. Review the provided code in `server/index.js` and make any necessary improvements or modifications.
+6. In the `/list` API, add the industries filter and it should function same as countries filter. 
 
-7. Feel free to add error handling, logging, or any other improvements you see fit in the existing code.
+7. Review the provided code in `server/index.js` and make any necessary improvements or modifications.
 
-8. Once you are done, submit your completed code or a link to your repository.
+8. Feel free to add error handling, logging, or any other improvements you see fit in the existing code.
+
+9. Once you are done, submit your completed code or a link to your repository.
 
 Happy coding! If you have any questions, feel free to reach out on wellfound.
 
